@@ -17,7 +17,7 @@ jobs:
         NODE:
           - 12.x
           - 10.x
-          - 8.x
+          # - 8.x
 
     name: Test on node ${{ matrix.NODE }} and ${{ matrix.PLATFORM }}
 
@@ -44,7 +44,7 @@ jobs:
         run: node benchmark.js 8 4 1e3
 
       - name: Run Benchmark 3
-        run: node benchmark.js 2 16 1e5
+        run: node benchmark.js 2 16 1e6
 
       - name: Run Benchmark 4
         run: node benchmark.js 16 2 1e3
