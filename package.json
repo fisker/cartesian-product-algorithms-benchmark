@@ -1,6 +1,7 @@
 {
   "name": "cartesian-product-algorithms-benchmark",
   "version": "1.0.0",
+  "private": true,
   "main": "index.js",
   "repository": "git@github.com:fisker/cartesian-product-algorithms-benchmark.git",
   "author": "fisker <lionkay@gmail.com>",
