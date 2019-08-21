@@ -38,13 +38,13 @@ jobs:
         run: yarn
 
       - name: Run Benchmark 1
-        run: node benchmark.js 4 8 1e5
+        run: node benchmark.js 4 8 1e8
 
       - name: Run Benchmark 2
         run: node benchmark.js 8 4 1e3
 
       - name: Run Benchmark 3
-        run: node benchmark.js 2 16 1e6
+        run: node benchmark.js 2 16 1e8
 
       - name: Run Benchmark 4
         run: node benchmark.js 16 2 1e3
