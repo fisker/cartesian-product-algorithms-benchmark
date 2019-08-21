@@ -6,7 +6,7 @@
   "author": "fisker <lionkay@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "fast-cartesian": "2.0.1",
+    "fast-cartesian": "2.0.2",
     "fast-cartesian-product": "1.0.0",
     "fast-cartesian-product-algorithm-2": "fisker/fast-cartesian-product#fast-cartesian-product-algorithm-2"
   }
