@@ -24,10 +24,10 @@ algorithms.forEach(({ name, fn }) => {
     fn(args)
   }
 
-  const duration = Number(process.hrtime.bigint() - start) / loops / 1e3
+  const duration = Number(process.hrtime.bigint() - start) / loops
   console.log(
     `${width}x${height} (${loops.toLocaleString()} loops)`,
     name,
-    `${Math.round(duration)}μs`,
+    `${Math.round(duration)}ns`,
   )
 })
