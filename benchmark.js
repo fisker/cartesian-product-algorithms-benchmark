@@ -1,6 +1,6 @@
 const { cartesianArray: fastCartesian } = require('fast-cartesian')
 const fastCartesianProduct = require('fast-cartesian-product')
-const algorithm2 = require('fast-cartesian-product-algorithm-2')
+const fastCartesianProduct2 = require('dynamic-loop-function')
 
 const width = Number(process.argv[2])
 const height = Number(process.argv[3])
@@ -13,7 +13,7 @@ const args = Array.from({ length: width }, () =>
 const algorithms = [
   { name: 'fast-cartesian', fn: args => fastCartesian(...args) },
   { name: 'fast-cartesian-product', fn: args => fastCartesianProduct(args) },
-  { name: 'fast-cartesian-product-algorithm-2', fn: args => algorithm2(args) },
+  { name: 'fast-cartesian-product (dynamic-loop-function)', fn: args => fastCartesianProduct2(args) },
 ]
 
 algorithms.forEach(({ name, fn }) => {
