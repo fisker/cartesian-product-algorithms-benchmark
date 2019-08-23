@@ -1,4 +1,4 @@
-const { cartesianArray: fastCartesian } = require('fast-cartesian')
+const { array: fastCartesian } = require('fast-cartesian')
 const { cartesianArray: fastCartesianOld } = require('fast-cartesian-old')
 const fastCartesianProduct = require('fast-cartesian-product')
 const fastCartesianProduct2 = require('dynamic-loop-function')
