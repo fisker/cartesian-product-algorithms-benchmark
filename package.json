@@ -13,6 +13,6 @@
     "dynamic-loop-function": "./algorithms/dynamic-loop-function"
   },
   "scripts": {
-    "test": "node benchmark.js 6 6 1000"
+    "test": "node benchmark.js 3 3 1000"
   }
 }
