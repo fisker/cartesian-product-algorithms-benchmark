@@ -1,4 +1,7 @@
-const { array: fastCartesian } = require('fast-cartesian')
+// this benchmark script is wrote by ehmicky (author of ehmicky)
+// https://github.com/ehmicky/fast-cartesian/issues/2#issuecomment-523407846
+
+const fastCartesian = require('fast-cartesian')
 const { cartesianArray: fastCartesianOld } = require('fast-cartesian-old')
 const fastCartesianProduct = require('fast-cartesian-product')
 const fastCartesianProduct2 = require('dynamic-loop-function')

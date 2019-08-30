@@ -7,12 +7,12 @@
   "author": "fisker <lionkay@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "fast-cartesian": "3.0.0",
+    "fast-cartesian": "4.0.0",
     "fast-cartesian-old": "npm:fast-cartesian@2.0.0",
     "fast-cartesian-product": "1.0.0",
     "dynamic-loop-function": "./algorithms/dynamic-loop-function"
   },
   "scripts": {
-    "test": "node benchmark.js 6 6 1000"
+    "test": "node benchmark.js 3 3 1000"
   }
 }
