@@ -9,7 +9,7 @@
   "dependencies": {
     "fast-cartesian": "5.0.0",
     "fast-cartesian-old": "npm:fast-cartesian@2.0.0",
-    "fast-cartesian-product": "1.0.2",
+    "fast-cartesian-product": "1.0.3",
     "dynamic-loop-function": "./algorithms/dynamic-loop-function"
   },
   "scripts": {
